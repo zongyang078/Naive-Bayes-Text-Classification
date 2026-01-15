@@ -5,7 +5,6 @@ This project implements a Naive Bayes text classifier **from scratch** to distin
 
 Rather than relying on pre-built NLP models, the classifier is implemented manually using Python data structures and probability calculations. The project demonstrates a clear understanding of probabilistic modeling, text preprocessing, and evaluation metrics for binary classification in natural language processing.
 
----
 
 ## Problem Statement
 Automatically distinguishing real news from fake news is a classic text classification problem that highlights both the power and limitations of simple probabilistic models.
@@ -17,7 +16,6 @@ The objective of this project is to:
 
 This task is intended for educational purposes and does not attempt to solve the full real-world complexity of fake news detection.
 
----
 
 ## Dataset
 - **Source**: Fake and Real News Dataset (Kaggle)
@@ -32,7 +30,6 @@ This task is intended for educational purposes and does not attempt to solve the
 
 Each document is labeled as real or fake and used as input to the classifier.
 
----
 
 ## Data Preprocessing
 The following preprocessing steps are applied:
@@ -44,7 +41,6 @@ The following preprocessing steps are applied:
 
 No external NLP libraries are used for tokenization or feature extraction.
 
----
 
 ## Methodology: Naive Bayes (Implemented by Hand)
 
@@ -62,7 +58,6 @@ No external NLP libraries are used for tokenization or feature extraction.
 
 All probability calculations are explicitly implemented in Python without calling pre-built Naive Bayes classifiers.
 
----
 
 ## Evaluation Metrics
 Model performance is evaluated on the held-out test set using:
@@ -72,7 +67,6 @@ Model performance is evaluated on the held-out test set using:
 
 These metrics provide a balanced view of classification performance, particularly in the presence of class imbalance and asymmetric error costs.
 
----
 
 ## Results & Observations
 - The Naive Bayes classifier achieves strong baseline performance on the dataset
@@ -82,7 +76,6 @@ These metrics provide a balanced view of classification performance, particularl
 
 This highlights why Naive Bayes remains a strong baseline model for many NLP tasks.
 
----
 
 ## Limitations
 - Bag-of-words representation ignores word order and semantics
@@ -95,9 +88,9 @@ More advanced approaches (e.g., TF-IDF, word embeddings, transformer models) cou
 
 ## Project Structure
 ├── Naive_Bayes_Classification.ipynb   # Main implementation notebook
-├── data/                             # Raw CSV files (Fake.csv, True.csv)
+
 └── README.md
----
+
 
 ## Tools & Technologies
 - Python
@@ -107,7 +100,6 @@ More advanced approaches (e.g., TF-IDF, word embeddings, transformer models) cou
 - Scikit-learn (metrics only)
 - Jupyter Notebook
 
----
 
 ## Key Takeaways
 - Implemented Naive Bayes classification entirely from first principles
@@ -115,7 +107,6 @@ More advanced approaches (e.g., TF-IDF, word embeddings, transformer models) cou
 - Demonstrated how simple models can scale effectively to large text datasets
 - Built a strong NLP baseline without relying on black-box libraries
 
----
 
 ## License
 This project is for academic and educational demonstration purposes.
